@@ -1,7 +1,7 @@
 Row = {}
 
-Row.PursuitKey = 178
-
+Row.PursuitKey = 178 -- fivem keybind
+Row.OtoPurge = 30 -- second
 Row.PursuitCar1 = 1949729657          
 Row.PursuitCar2 = -1109563416          
 Row.PursuitCar3 = -1336796853           

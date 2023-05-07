@@ -61,7 +61,8 @@ CreateThread(function()
     while true do
         Wait(2000)
         if beklet then
-            Wait(30000)
+          local beklemesuresi = Row.OtoPurge*1000
+            Wait(beklemesuresi)
         if beklet then
             local vehicle = GetVehiclePedIsIn(PlayerPedId(), false)
             SetVehicleNitroPurgeEnabled2(sex, false)
