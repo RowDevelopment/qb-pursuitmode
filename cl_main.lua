@@ -12,7 +12,7 @@ local sexlazim = false
 CreateThread(function()
     while true do
         local vehicle = GetVehiclePedIsIn(PlayerPedId(), false)
-        if IsControlJustPressed(0, 178) then --delete
+        if IsControlJustPressed(0, Row.PursuitKey) then --delete
             if vehicle ~= 0 then
                 local vehiclehash = GetEntityModel(vehicle)
                 if vehiclehash == Row.PursuitCar1 or vehiclehash == Row.PursuitCar2 or vehiclehash == Row.PursuitCar3 or vehiclehash == Row.PursuitCar4 or vehiclehash == Row.PursuitCar5 or vehiclehash == Row.PursuitCar6 or vehiclehash == Row.PursuitCar7 then
